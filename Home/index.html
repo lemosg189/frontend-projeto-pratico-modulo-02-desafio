@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../global.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rokkitt:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h3 class="header">KONTACTS</h3>
+        <img class="img-header" src="Vector.png" alt="logout">
+    </header>
+
+    <div class="btn-sheet">
+        <button class="add">
+            Adicionar
+        </button>
+
+        <div class="background hidden">
+            <div class="modalAdd">
+                <img class="fechar" src="X.png" alt="Fechar">
+                <h5>Novo Contato</h5>
+                <input id="nome" type="text" placeholder="Nome">
+                <input id="email" type="email" placeholder="E-mail">
+                <input id="phone" type="number" placeholder="Telefone">
+                <button id="add">ADICIONAR</button>
+                <button id="clean">LIMPAR</button>
+            </div>
+        </div>
+
+        <div class="backgrd hide">
+            <div class="modalTrash">
+                <img id="fechar" src="X.png" alt="Fechar">
+                <h4>Confirma a exclusão?</h4>
+                <h5>Deseja excluir o contato?</h5>
+                <button id="del">EXCLUIR</button>
+                <button id="cancel">CANCELAR</button>
+            </div>
+        </div>
+
+        <section>
+            <div class="topo">
+                <h6>Nome</h6>
+                <h6>Email</h6>
+                <h6>Telefone</h6>
+            </div>
+        </section>
+
+        <section>
+            <div class="contatos">
+                <div class="contato">
+                    <h6>Claudia M. Sousa</h6>
+                    <h6>claudia@teste.com.br</h6>
+                    <h6>(99)9999-9999</h6>
+                    <img class="trash" src="lixeira.png" alt="deletar">
+                </div>
+
+                <div class="contato">
+                    <h6>João Santos </h6>
+                    <h6>joao@teste.com.br</h6>
+                    <h6>(99)9999-9999</h6>
+                    <img class="trash" src="lixeira.png" alt="deletar">
+                </div>
+
+                <div class="contato">
+                    <h6>Pedro Henrique</h6>
+                    <h6>pedro.henrque@teste.com.br</h6>
+                    <h6>(99)9999-9999</h6>
+                    <img class="trash" src="lixeira.png" alt="deletar">
+                </div>
+
+                <div class="contato">
+                    <h6>Marina Tavares</h6>
+                    <h6>marina_tavares@teste.com.br</h6>
+                    <h6>(99)9999-9999</h6>
+                    <img class="trash" src="lixeira.png" alt="deletar">
+                </div>
+
+                <div class="contato">
+                    <h6>Daniel Lopes</h6>
+                    <h6>daniel.lopes@cubos.academy</h6>
+                    <h6>(99)9999-9999</h6>
+                    <img class="trash" src="lixeira.png" alt="deletar">
+                </div>
+
+                <div class="contato">
+                    <h6>Guido Cerqueira</h6>
+                    <h6>guido.cerqueira@cubos.academy</h6>
+                    <h6>(99)9999-9999</h6>
+                    <img class="trash" src="lixeira.png" alt="deletar">
+                </div>
+
+
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
